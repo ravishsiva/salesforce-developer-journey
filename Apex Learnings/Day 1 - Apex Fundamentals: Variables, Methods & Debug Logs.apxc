@@ -51,11 +51,8 @@ else
 System.debug('Junior');
 }
 }
-public static void isEligibleForBonus(Double Salary)
+public static Boolean isEligibleForBonus(Double salary)
 {
-if(Salary>=50000)
-{
-
-}
+    return salary >= 50000;
 }
 }
