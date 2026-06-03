@@ -1,0 +1,54 @@
+/* Create the following variables:
+Employee Name = "Ravish"
+Employee Id = 1001
+Salary = 50000
+IsActive = true
+Print all values using System.debug().
+
+Expected Debug Output:
+
+Employee Name : Ravish
+Employee Id : 1001
+Salary : 50000
+Is Active : true */
+
+
+
+Public Class EmployeeManager{
+
+public static void displayEmployeeDetails()
+{
+String Employee_Name='Ravish';
+Integer Employee_id=1001;
+Double Salary=50000;
+Boolean IsActive=true;
+System.debug('Employee Name : ' +Employee_Name);
+System.debug('Employeeid: '+Employee_id);
+System.debug('Salary: '+Salary);
+System.debug('IsActive: '+IsActive);
+
+}
+
+public static double calculateAnnualSalary(Double monthlySalary)
+{
+double annualSalary=monthlySalary*12;
+System.debug('Annual Salary' +annualSalary);
+return annualSalary;
+}
+
+public static void getEmployeeLevel(Double Salary)
+{
+if (Salary >=100000)
+{
+System.debug('Senior');
+}
+else if(Salary>=50000)
+{
+System.debug('Mid-Level');
+}
+else
+{
+System.debug('Junior');
+}
+}
+}
