@@ -51,4 +51,11 @@ else
 System.debug('Junior');
 }
 }
+public static void isEligibleForBonus(Double Salary)
+{
+if(Salary>=50000)
+{
+
+}
+}
 }
