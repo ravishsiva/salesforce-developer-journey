@@ -1,1 +1,25 @@
+Public Class EmployeeManager{
+Public static void printEmployeeNames(){
+List<String> EmployeeList=new List<String>();
+EmployeeList.add('Ravish');
+EmployeeList.add('John');
+EmployeeList.add('David');
+EmployeeList.add('Sarah');
+EmployeeList.add('Alex');
+for(String empname: EmployeeList)
+{
+System.debug(empname);
+}
+}
 
+public static void printTotalEmployees()
+{
+List<String> EmployeeList=new List<String>();
+EmployeeList.add('Ravish');
+EmployeeList.add('John');
+EmployeeList.add('David');
+EmployeeList.add('Sarah');
+EmployeeList.add('Alex');
+System.debug(EmployeeList.Size());
+}
+}
