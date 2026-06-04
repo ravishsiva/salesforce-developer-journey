@@ -14,12 +14,28 @@ System.debug(empname);
 
 public static void printTotalEmployees()
 {
-List<String> EmployeeList=new List<String>();
+List<String> employeeList=new List<String>();
 EmployeeList.add('Ravish');
 EmployeeList.add('John');
 EmployeeList.add('David');
 EmployeeList.add('Sarah');
 EmployeeList.add('Alex');
 System.debug(EmployeeList.Size());
+}
+
+public static void printEmployeesStartingWithA()
+{
+List<String> employeeList=new List<String>();
+EmployeeList.add('Ravish');
+EmployeeList.add('John');
+EmployeeList.add('David');
+EmployeeList.add('Sarah');
+EmployeeList.add('Alex');
+for(String employee: employeeList){
+if(employee.startsWith('A'))
+{
+System.debug(employee);
+}
+}
 }
 }
