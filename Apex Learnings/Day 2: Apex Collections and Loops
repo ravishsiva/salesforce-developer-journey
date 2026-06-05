@@ -38,4 +38,21 @@ System.debug(employee);
 }
 }
 }
+
+public static void printNamesContainingA()
+{
+List<String> employeeList=new List<String>();
+EmployeeList.add('Ravish');
+EmployeeList.add('John');
+EmployeeList.add('David');
+EmployeeList.add('Sarah');
+EmployeeList.add('Alex');
+for(String employee: employeeList){
+if(employee.Contains('A') || employee.Contains('a') )
+{
+System.debug(employee);
+}
+}
+}
+
 }
