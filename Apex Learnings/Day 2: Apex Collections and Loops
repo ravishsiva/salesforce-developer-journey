@@ -14,7 +14,7 @@ System.debug(empname);
 
 public static void printTotalEmployees()
 {
-List<String> employeeList=new List<String>();
+List<String> EmployeeList=new List<String>();
 EmployeeList.add('Ravish');
 EmployeeList.add('John');
 EmployeeList.add('David');
@@ -25,7 +25,7 @@ System.debug(EmployeeList.Size());
 
 public static void printEmployeesStartingWithA()
 {
-List<String> employeeList=new List<String>();
+List<String> EmployeeList=new List<String>();
 EmployeeList.add('Ravish');
 EmployeeList.add('John');
 EmployeeList.add('David');
@@ -41,7 +41,7 @@ System.debug(employee);
 
 public static void printNamesContainingA()
 {
-List<String> employeeList=new List<String>();
+List<String> EmployeeList=new List<String>();
 EmployeeList.add('Ravish');
 EmployeeList.add('John');
 EmployeeList.add('David');
@@ -52,6 +52,22 @@ if(employee.Contains('A') || employee.Contains('a') )
 {
 System.debug(employee);
 }
+}
+}
+
+
+public static void printNamesEndingWithH()
+{
+List<String> EmployeeList=new List<String>();
+EmployeeList.add('Ravish');
+EmployeeList.add('John');
+EmployeeList.add('David');
+EmployeeList.add('Sarah');
+EmployeeList.add('Alex');
+for(String employee: employeeList){
+if(employee.endsWith('h'))
+{
+System.debug(employee);
 }
 }
 
