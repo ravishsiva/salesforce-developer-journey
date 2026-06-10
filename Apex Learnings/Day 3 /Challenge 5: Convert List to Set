@@ -1,0 +1,17 @@
+Public Class EmployeeManager{
+public static void removeEmployee(){
+List<String> employeeList=new List<String>();
+employeeList.add('Ravish');
+employeeList.add('John');
+employeeList.add('David');
+employeeList.add('Ravish');
+employeeList.add('Sarah');
+employeeList.add('John');
+employeeList.add('Alex');
+System.debug('Original Employees:' +employeeList.size());
+Set<String> employeeSet=new Set<String>();
+employeeSet.addAll(employeeList);
+System.debug('Unique Employees:' +employeeSet.size());
+
+}
+}
