@@ -1,0 +1,23 @@
+Public Class EmployeeManager{
+public static void printUniqueEmployeeNames()
+{
+Set<String> employeeSet=new Set<String>();
+employeeSet.add('Ravish');
+employeeSet.add('John');
+employeeSet.add('David');
+employeeSet.add('Ravish');
+employeeSet.add('Sarah');
+employeeSet.add('John');
+employeeSet.add('Alex');
+if(employeeSet.contains('David'))
+{
+System.debug('Employee Found');
+}
+else
+{
+System.debug('Employee Not Found');
+
+}
+
+}
+}
