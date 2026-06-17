@@ -1,0 +1,23 @@
+Public Class EmployeeManager{
+public static void printCommonEmployees()
+{
+Set<String> employeeSet1=new Set<String>();
+employeeSet1.add('Ravish');
+employeeSet1.add('John');
+employeeSet1.add('David');
+employeeSet1.add('Sarah');
+Set<String> employeeSet2=new Set<String>();
+employeeSet2.add('David');
+employeeSet2.add('Sarah');
+employeeSet2.add('Alex');
+employeeSet2.add('James');
+for(String emp:employeeSet1)
+{
+if(employeeSet2.contains(emp))
+{
+System.debug(emp);
+}
+}
+
+}
+}
